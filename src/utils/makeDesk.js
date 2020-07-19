@@ -9,9 +9,9 @@ export default () => {
   let cards = []
 
   while (cards.length < NUM_CARDS) {
-    const index = Math.floor(Math.random() * fontAwesomeClasses)
+    const index = Math.floor(Math.random() * fontAwesomeClasses.length)
     const card = {
-      icon: fontAwesomeClasses.slice(index, 1)[0],
+      icon: fontAwesomeClasses.splice(index, 1)[0],
       wasGuessed: false
     }
     cards.push(card);

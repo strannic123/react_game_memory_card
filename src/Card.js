@@ -5,7 +5,7 @@ class Card extends Component {
   render() {
     return (
       <div className="card">
-
+        <i className={`fa ${this.props.icon} fa-4x`}></i>
       </div>
     );
   }
