@@ -3,3 +3,23 @@
     height: 125px;
     background-color: orange;
 }
+
+.front-card {
+    width: 125px;
+    height: 125px;
+    background-color: orange;
+}
+
+.back-card {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lemonchiffon;
+}
+
+.ReactCardFlip {
+    width: 100%;
+    height: 100%;
+}
