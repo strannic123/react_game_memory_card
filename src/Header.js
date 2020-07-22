@@ -7,12 +7,12 @@ export default class Header extends Component {
       <header>
         <div className="title">React каточки памяти</div>
         <div>
-          <button className="button-restart">
+          <button className="button-restart" onClick={this.props.reset}>
             Начать с начала
           </button>
         </div>
         <div className="title">
-          Попытки:
+          Попытки: {this.props.numStep}
         </div>
       </header>
     )

@@ -18,16 +18,16 @@ class Card extends Component {
 
   render() {
     return (
-      <div className="card">
-        <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-          <div className="front-card">
+      <div className="card" onClick={this.props.selectCard}>
+        <ReactCardFlip isFlipped={this.props.cardComparison || this.props.wasGuessed} flipDirection="vertical">
+          <div className="front-card" onClick={this.handleClick}>
 
-            <button onClick={this.handleClick}>Click to flip</button>
+            {/*<button onClick={this.handleClick}>Click to flip</button>*/}
           </div>
 
-          <div className="back-card">
-            <i className={`fa ${this.props.icon} fa-4x `}></i>
-            <button onClick={this.handleClick}>Click to back</button>
+          <div className="back-card" onClick={this.handleClick}>
+            <i className={`fa ${this.props.icon} fa-3x `}></i>
+            {/*<button onClick={this.handleClick}>Click to back</button>*/}
 
           </div>
         </ReactCardFlip>
