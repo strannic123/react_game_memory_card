@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Игра карточки памяти. Написана на React. Необходимо найти пару. Если первая карточка не соответствует второй - обе закрываются обратно. Счетчик ходов. Рестарт игры.
+## ![Imgur](https://i.imgur.com/esiX4e1.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
